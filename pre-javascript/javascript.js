@@ -4,31 +4,31 @@ const score = 12;
 const age = 72;
 const hasCovid = false;
 const isBritish = true;
-
+const greeting = "bonjour"
 
 
 if (fname == coachesName ) {
-    console.log ("It's a coach")
+    console.log ("It's a coach");
 }
 
 if ( greeting == "bonjour" ) {
-    console.log ("comment ca va")
+    console.log ("comment ca va");
 }
 
 if ( score >= 10 ) {
-    console.log ("you won the game")
+    console.log ("you won the game");
 }
 
 if (age > 65) {
-    console.log ("time to retire")
+    console.log ("time to retire");
 }
 
 if (hasCovid == true) {
-    console.log("time to isolate")
+    console.log("time to isolate");
 } else {
-    console.log("keep social distancing")
+    console.log("keep social distancing");
 }
 
 if (age > 18 && isBritish == true)  {
-    console.log ("You can vote in the next election")
+    console.log ("You can vote in the next election");
 }
