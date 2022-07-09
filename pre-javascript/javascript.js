@@ -1,3 +1,11 @@
+const fname = "Frank";
+const coachesName = "Frank";
+const score = 12;
+const age = 72;
+const hasCovid = false;
+const isBritish = true;
+
+
 
 if (fname == coachesName ) {
     console.log ("It's a coach")
