@@ -7,3 +7,15 @@ function calculateYearsUntilRetirement(event) {
         alert ("You should already be retired!")
     }
 }
+
+function getGreetingInFrench(event) {
+    const greeting = event.target.value;
+
+    if (greeting == "Hello" || greeting == "hello") {
+        alert("Bonjour")
+    } else if (greeting == "Goodbye" || greeting == "goodbye") {
+        alert("Au revoir")
+    } else {
+        alert("not recognized")
+    }
+}
