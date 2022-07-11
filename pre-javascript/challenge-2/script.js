@@ -75,6 +75,8 @@ function timeUntilWeekend(event) {
         case "SUNDAY":
             rday="S"
             break;
+        default:
+            rday= "N";
     }
 
 
@@ -86,11 +88,69 @@ function timeUntilWeekend(event) {
     else if (rday =="S") {
         alert("The Weekend has already started!!!");
     }
+    else if (rday== "N") {
+        alert("Sorry, we didn't recognize that day.");
+    }
     else {
         alert("Only " + rday + " more days until the weekend.");
     }
 
 
 
+
+}
+
+
+function veggiePrices(event){
+
+    let vege = event.target.value
+
+    if (!vege) {
+        return;
+    }
+
+
+    vege = vege.toUpperCase();
+
+    let rvege;
+    let dvege;
+
+    switch(vege) {
+        case "POTATO":
+            rvege = "10"
+            break;
+        case "CARROT":
+            rvege = "10"
+            break;
+        case "BROCOLLI":
+            rvege= "8"
+            break;
+        case "CABBAGE":
+            rvege = "6"
+            break;
+        case "ASPARAGUS":
+            rvege ="7"
+            break;
+    }
+
+    switch(vege) {
+        case "POTATO":
+            dvege = "Potato's"
+            break;
+        case "CARROT":
+            dvege = "Carrot's"
+            break;
+        case "BROCOLLI":
+            dvege= "Brocolli"
+            break;
+        case "CABBAGE":
+            dvege = "Cabbage's"
+            break;
+        case "ASPARAGUS":
+            dvege ="Asparagus"
+            break;
+    }
+
+    alert(dvege + " costs " + rvege + " dollars per kilogram")
 
 }
