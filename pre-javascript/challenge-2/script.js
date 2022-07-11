@@ -1,14 +1,14 @@
 function positiveOrNegative(event) {
 
-    let numb= event.target.value;
+    let amountEntered= event.target.value;
 
-    if (!numb) {
+    if (!amountEntered) {
         return;
     }
 
     let result;
 
-    if (numb >=0) {
+    if (amountEntered >=0) {
         result = "Positive"
     } else {
         result = "Negative;"
@@ -42,57 +42,57 @@ if (num1 >= num2 && num1 >= num3) {
 
 
 function timeUntilWeekend(event) {
-    let cday= event.target.value;
+    let currentDay= event.target.value;
 
-    if (!cday) {
+    if (!currentDay) {
         return;
     }
 
-    cday = cday.toUpperCase();
+    currentDay = currentDay.toUpperCase();
 
 
-    let rday;
+    let currentDayResult;
 
-    switch (cday) {
+    switch (currentDay) {
         case "MONDAY":
-            rday = "4"
+            currentDayResult = "4"
             break;
         case "TUESDAY":
-            rday= "3"
+            currentDayResult= "3"
             break;
         case "WEDNESDAY":
-            rday= "2"
+            currentDayResult= "2"
             break;
         case "THURSDAY":
-            rday ="1"
+            currentDayResult ="1"
             break;
         case "FRIDAY":
-            rday="F"
+            currentDayResult="F"
             break;
         case "SATURDAY":
-            rday="S"
+            currentDayResult="S"
             break;
         case "SUNDAY":
-            rday="S"
+            currentDayResult="S"
             break;
         default:
-            rday= "N";
+            currentDayResult= "N";
     }
 
 
-    if (rday == "F" ) {
+    if (currentDayResult == "F" ) {
         alert("The Weekend Starts Tonight At 6 PM !!!!!!");
-    }else if (rday== "2" ) {
+    }else if (currentDayResult== "2" ) {
         alert("Only 2 more days until the weekend! PS. It's Wednesday my dudes.");
     }
-    else if (rday =="S") {
+    else if (currentDayResult =="S") {
         alert("The Weekend has already started!!!");
     }
-    else if (rday== "N") {
+    else if (currentDayResult== "N") {
         alert("Sorry, we didn't recognize that day.");
     }
     else {
-        alert("Only " + rday + " more days until the weekend.");
+        alert("Only " + currentDayResult + " more days until the weekend.");
     }
 
 
