@@ -1,6 +1,16 @@
 function handleCalculateGrade(event) {
 
-    const grade = event.target.value
+    let grade = event.target.value
+    //if grade has no value, stops code entirely.
+    if (!grade) {
+        return;
+    }
+
+    // Converts lowercase to uppercase
+    grade = grade.toUpperCase();
+
+
+
 
     let percentage;
     switch (grade) { //Grade is the value being evaluated, each case is referencing Grades value. 
