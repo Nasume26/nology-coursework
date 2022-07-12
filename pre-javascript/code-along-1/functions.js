@@ -9,7 +9,7 @@ findPerimeter(10, 22)
 
 function findArea(radius) {
     let area;
-    area= radius * radius * 3.14;
+    area= radius * radius * Math.PI;
     console.log ("The area is " + area);
 
 }
@@ -18,7 +18,7 @@ findArea(4)
 
 function findCircumference (diameter) {
     let circumference;
-    circumference= 3.14 * diameter;
+    circumference= Math.PI * diameter;
     console.log ("The Circumference is " + circumference);
 
 
