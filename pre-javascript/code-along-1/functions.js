@@ -62,3 +62,14 @@ function convertToFarenheit(currentTemperatureInCelsius) {
 }
 
 convertToFarenheit(32)
+
+
+function calculateAgeOfDogInDogYears (ageInHumanYears) {
+    let ageInDogYears = ageInHumanYears * 7;
+    const message = 'Your dog is ' + ageInDogYears + ' years old in dog years.';
+
+    console.log (message);
+
+}
+
+calculateAgeOfDogInDogYears(9)
