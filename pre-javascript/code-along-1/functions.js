@@ -25,3 +25,15 @@ function findCircumference (diameter) {
 }
 
 findCircumference (20)
+
+
+
+function getDescription(children,partnerName,location,title) {
+    console.log("I am currently a " + title + " living in " + location + ", and married to " + partnerName + " with " + children + " kids.")
+
+
+}
+
+getDescription(1,"Jane","Geogria","Developer")
+getDescription(2,"Betty","Texas","Farmer")
+getDescription(4,"Dave","Florida","Janitor")
