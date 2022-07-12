@@ -13,7 +13,11 @@ for (let i = 0; i < 5; i++) {
     console.log("The index on this loop was " + i);
 }
 
-let c= 74;
-for (let b = 7; b <= c; b++) {
-    console.log("B is currently equal to " + b);
+// let c= 74;
+// for (let b = 7; b <= c; b++) {
+//     console.log("B is currently equal to " + b);
+// }
+
+for (let index = 0; index < coaches.length ; index++) {
+    console.log(coaches[index]);
 }
