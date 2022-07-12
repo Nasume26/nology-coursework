@@ -53,3 +53,12 @@ function calculateSupply(age,ammountDay) {
 calculateSupply(23,3)
 calculateSupply(43,2)
 calculateSupply(62,2)
+
+function convertToFarenheit(currentTemperatureInCelsius) {
+    let convertedTemperatureInFarenheit = (currentTemperatureInCelsius * 1.8 ) + 32;
+    const message = "It is currently " + convertedTemperatureInFarenheit + " degrees farenheit.";
+    console.log(message);
+
+}
+
+convertToFarenheit(32)
