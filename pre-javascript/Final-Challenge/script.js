@@ -8,4 +8,15 @@ function isPositiveOrNegative(number) {
     }
 }
 
-console.log(isPositiveOrNegative(-1))
+console.log(isPositiveOrNegative(-1));
+console.log(isPositiveOrNegative(10));
+
+//Write a function that takes a number of days and converts it into an age.
+
+function convertDaysToAge (ammountOfDays) {
+    const ammountInYears = ammountOfDays  / 365;
+    return ammountInYears;
+}
+
+console.log (convertDaysToAge(3650));
+console.log (convertDaysToAge(6570));
