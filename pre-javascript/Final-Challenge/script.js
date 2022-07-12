@@ -37,3 +37,12 @@ const numberMessage= " is the largest number.";
 console.log(getLargestNumber(2,1,4) + numberMessage)
 console.log(getLargestNumber(6,2,3) + numberMessage)
 
+//Write a function that takes an array of names and returns the last name from the array of names.
+
+function getLastName(nameArray) {
+    const lastName = nameArray[nameArray.length - 1];
+    return lastName;
+}
+
+console.log(getLastName(["Charlie", "Rob", "Andy" ]));
+console.log(getLastName(["Ash", "Stu"]));
