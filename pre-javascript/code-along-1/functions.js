@@ -61,7 +61,7 @@ function convertToFarenheit(currentTemperatureInCelsius) {
 
 }
 
-convertToFarenheit(32)
+convertToFarenheit(21)
 
 
 function calculateAgeOfDogInDogYears (ageInHumanYears) {
